@@ -222,7 +222,7 @@ Building thriving developer communities while crafting elegant digital experienc
 | 🔥 Total Contributions | <!-- CONTRIBUTIONS:START -->1,234<!-- CONTRIBUTIONS:END --> |
 | ⭐ GitHub Stars Earned | <!-- STARS:START -->42<!-- STARS:END --> |
 | 📝 Blog Articles Written | <!-- BLOGS:START -->15<!-- BLOGS:END --> |
-| 🎤 Events Hosted | <!-- EVENTS:START -->15<!-- EVENTS:END --> |
+| 🎤 Events Hosted | <!-- EVENTS:START -->10+<!-- EVENTS:END --> |
 | 🤝 Community Members | <!-- MEMBERS:START -->670+<!-- MEMBERS:END --> |
 | 🎨 Design Projects | <!-- DESIGNS:START -->100+<!-- DESIGNS:END --> |
 
@@ -239,8 +239,8 @@ Building thriving developer communities while crafting elegant digital experienc
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kalpicksharma/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=google-chrome&logoColor=white)](https://kalpicksharma.netlify.app/)
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/KalpickSharma)
-[![Dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/kalpicksharma)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@kalpicksharma)
+[![Dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)]([https://dev.to/kalpicksharma](https://dev.to/kalpick_sharma_d32ace423a))
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@coolkalpick)
 
 
 </div>
