@@ -219,11 +219,9 @@ Building thriving developer communities while crafting elegant digital experienc
   
 | Metric | Value |
 |--------|-------|
-| 🔥 Total Contributions | <!-- CONTRIBUTIONS:START -->1,234<!-- CONTRIBUTIONS:END --> |
-| ⭐ GitHub Stars Earned | <!-- STARS:START -->42<!-- STARS:END --> |
 | 📝 Blog Articles Written | <!-- BLOGS:START -->15<!-- BLOGS:END --> |
 | 🎤 Events Hosted | <!-- EVENTS:START -->10+<!-- EVENTS:END --> |
-| 🤝 Community Members | <!-- MEMBERS:START -->670+<!-- MEMBERS:END --> |
+| 🤝 Community Members | <!-- MEMBERS:START -->270+<!-- MEMBERS:END --> |
 | 🎨 Design Projects | <!-- DESIGNS:START -->100+<!-- DESIGNS:END --> |
 
 </div>
