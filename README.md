@@ -194,9 +194,10 @@ Building thriving developer communities while crafting elegant digital experienc
 ## 📝 Latest Blog Posts
 
 <!-- BLOG:START -->
-- [Building Developer Communities: Lessons from AlloyTrik](https://dev.to/kalpick-sharma)
-- [Web3 Integration in Modern Apps: A Practical Guide](https://medium.com/@kalpick-sharma)
-- [Design Systems for Web3 Projects](https://hashnode.com/@kalpick-sharma)
+- [DevRel in 2026: Your Developer Docs Have a New User]([https://dev.to/kalpick-sharma](https://dev.to/kalpick_sharma_d32ace423a/devrel-in-2026-your-developer-docs-have-a-new-user-3b55))
+- [Open Source AI Models Are Closing the Gap. Why That Matters for Developers]([https://medium.com/@kalpick-sharma](https://dev.to/kalpick_sharma_d32ace423a/open-source-ai-models-are-closing-the-gap-why-that-matters-for-developers-32ok))
+- [I built a prototype of a PWA meeting app to better understand WebRTC.](https://www.linkedin.com/pulse/i-built-prototype-pwa-meeting-app-better-understand-webrtc-sharma-krvwc)
+- [From Vibe Coding to Production: The New Role of the Design Engineer](https://www.linkedin.com/pulse/from-vibe-coding-production-new-role-design-engineer-kalpick-sharma-l0dsf)
 <!-- BLOG:END -->
 
 <!-- ============================================ -->
@@ -243,30 +244,7 @@ Building thriving developer communities while crafting elegant digital experienc
 
 </div>
 
-<!-- ============================================ -->
-<!-- AUTOMATION EXPLAINED                         -->
-<!-- ============================================ -->
-## 🔄 What gets automated
 
-This repo is already set up to automate the profile refresh flow:
-
-- Daily GitHub Action refresh at midnight UTC
-- Manual run from the GitHub Actions tab
-- README placeholder replacement via Python
-- timestamp refresh for the footer
-- asset refresh when the SVG files are updated in the repo
-
-### How to trigger it
-1. Open the GitHub repository.
-2. Go to the Actions tab.
-3. Choose the workflow named "Update profile README".
-4. Click "Run workflow" or let the schedule trigger automatically.
-
-### What it updates
-- profile values and banner paths
-- last updated timestamp in the footer
-- any README content driven by placeholders
-- SVG asset files stored under [Kalpick-Sharma/assets](Kalpick-Sharma/assets)
 
 <!-- ============================================ -->
 <!-- FOOTER                                      -->
