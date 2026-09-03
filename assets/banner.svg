@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060816;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#111827;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d2ff"/>
+      <stop offset="40%" style="stop-color:#7a5cff"/>
+      <stop offset="75%" style="stop-color:#ff6b6b"/>
+      <stop offset="100%" style="stop-color:#fbbf24"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <radialGradient id="pulseGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00d2ff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#00d2ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bgGradient)"/>
+
+  <circle cx="200" cy="110" r="180" fill="url(#pulseGlow)">
+    <animate attributeName="r" values="150;210;150" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="cx" values="200;260;200" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="980" cy="180" r="170" fill="url(#pulseGlow)" opacity="0.8">
+    <animate attributeName="r" values="140;200;140" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="180;130;180" dur="10s" repeatCount="indefinite"/>
+  </circle>
+
+  <g opacity="0.45">
+    <path d="M 0 230 Q 200 150 400 230 T 800 230 T 1200 230" fill="none" stroke="#00d2ff" stroke-width="1.2">
+      <animate attributeName="stroke-opacity" values="0.15;0.45;0.15" dur="5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 0 180 Q 220 120 420 180 T 820 180 T 1200 180" fill="none" stroke="#7a5cff" stroke-width="1.2">
+      <animate attributeName="stroke-opacity" values="0.1;0.4;0.1" dur="6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g fill="#e5ecff" opacity="0.8" font-family="Segoe UI, Arial, sans-serif" font-size="12">
+    <text x="70" y="45">&lt;community&gt;</text>
+    <text x="980" y="270">&lt;/design&gt;</text>
+    <text x="78" y="274">{ developer }</text>
+  </g>
+
+  <g filter="url(#glow)">
+    <text x="600" y="125" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="700" fill="url(#textGradient)">
+      Kalpick Sharma
+      <animate attributeName="opacity" values="0;1;1" dur="2s" fill="freeze"/>
+    </text>
+  </g>
+
+  <text x="600" y="175" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#ffffff" opacity="0.9">
+    <tspan fill="#00d2ff">Community Architect</tspan>
+    <tspan fill="#ffffff"> | </tspan>
+    <tspan fill="#7a5cff">Design Engineer</tspan>
+    <tspan fill="#ffffff"> | </tspan>
+    <tspan fill="#ff6b6b">Web3 Enthusiast</tspan>
+  </text>
+
+  <g transform="translate(190, 212)">
+    <rect x="0" y="0" width="170" height="38" rx="19" fill="#00d2ff" opacity="0.12"/>
+    <text x="84" y="25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#f8fafc">
+      <tspan font-weight="700" fill="#00d2ff">270+</tspan>
+      <tspan fill="#dfe7ff"> members</tspan>
+    </text>
+
+    <rect x="185" y="0" width="170" height="38" rx="19" fill="#7a5cff" opacity="0.12"/>
+    <text x="270" y="25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#f8fafc">
+      <tspan font-weight="700" fill="#7a5cff">15+</tspan>
+      <tspan fill="#dfe7ff"> events</tspan>
+    </text>
+
+    <rect x="370" y="0" width="170" height="38" rx="19" fill="#ff6b6b" opacity="0.12"/>
+    <text x="455" y="25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#f8fafc">
+      <tspan font-weight="700" fill="#ff6b6b">100+</tspan>
+      <tspan fill="#dfe7ff"> designs</tspan>
+    </text>
+
+    <rect x="555" y="0" width="170" height="38" rx="19" fill="#fbbf24" opacity="0.12"/>
+    <text x="640" y="25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#f8fafc">
+      <tspan font-weight="700" fill="#fbbf24">10+</tspan>
+      <tspan fill="#dfe7ff"> partners</tspan>
+    </text>
+  </g>
+
+  <line x1="145" y1="204" x2="1045" y2="204" stroke="url(#textGradient)" stroke-width="1.6" opacity="0.35">
+    <animate attributeName="x1" values="145;180;145" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="1045;1000;1045" dur="8s" repeatCount="indefinite"/>
+  </line>
+</svg>

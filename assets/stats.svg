@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <linearGradient id="bgGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#050a14"/>
+    </linearGradient>
+    <linearGradient id="statGradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d2ff"/>
+      <stop offset="100%" style="stop-color:#7a5cff"/>
+    </linearGradient>
+    <linearGradient id="statGradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7a5cff"/>
+      <stop offset="100%" style="stop-color:#ff6b6b"/>
+    </linearGradient>
+    <linearGradient id="statGradient3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6b6b"/>
+      <stop offset="100%" style="stop-color:#f9ca24"/>
+    </linearGradient>
+    <linearGradient id="statGradient4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f9ca24"/>
+      <stop offset="100%" style="stop-color:#00d2ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="200" fill="url(#bgGlow)" rx="18"/>
+  <rect x="1" y="1" width="798" height="198" rx="17" fill="none" stroke="#7a5cff" stroke-width="1" opacity="0.3"/>
+
+  <g opacity="0.28">
+    <circle cx="120" cy="40" r="70" fill="#00d2ff">
+      <animate attributeName="opacity" values="0.2;0.4;0.2" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="650" cy="150" r="90" fill="#7a5cff">
+      <animate attributeName="opacity" values="0.12;0.38;0.12" dur="5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g transform="translate(35, 28)">
+    <text x="0" y="16" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#b5bed7">Total Commits</text>
+    <text x="0" y="60" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700" fill="url(#statGradient1)">
+      1,234
+    </text>
+    <rect x="0" y="78" width="130" height="5" rx="2.5" fill="url(#statGradient1)" opacity="0.2"/>
+    <rect x="0" y="78" width="0" height="5" rx="2.5" fill="url(#statGradient1)">
+      <animate attributeName="width" values="0;130" dur="1.5s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <g transform="translate(220, 28)">
+    <text x="0" y="16" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#b5bed7">PRs Merged</text>
+    <text x="0" y="60" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700" fill="url(#statGradient2)">
+      22
+    </text>
+    <rect x="0" y="78" width="130" height="5" rx="2.5" fill="url(#statGradient2)" opacity="0.2"/>
+    <rect x="0" y="78" width="0" height="5" rx="2.5" fill="url(#statGradient2)">
+      <animate attributeName="width" values="0;130" dur="1.8s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <g transform="translate(405, 28)">
+    <text x="0" y="16" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#b5bed7">Community Members</text>
+    <text x="0" y="60" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700" fill="url(#statGradient3)">
+      270+
+    </text>
+    <rect x="0" y="78" width="130" height="5" rx="2.5" fill="url(#statGradient3)" opacity="0.2"/>
+    <rect x="0" y="78" width="0" height="5" rx="2.5" fill="url(#statGradient3)">
+      <animate attributeName="width" values="0;130" dur="2.1s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <g transform="translate(590, 28)">
+    <text x="0" y="16" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#b5bed7">Brand Identities</text>
+    <text x="0" y="60" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700" fill="url(#statGradient4)">
+      100+
+    </text>
+    <rect x="0" y="78" width="130" height="5" rx="2.5" fill="url(#statGradient4)" opacity="0.2"/>
+    <rect x="0" y="78" width="0" height="5" rx="2.5" fill="url(#statGradient4)">
+      <animate attributeName="width" values="0;130" dur="2.4s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <circle cx="400" cy="170" r="3" fill="#00d2ff" opacity="0.7">
+    <animate attributeName="r" values="3;9;3" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="460" cy="170" r="3" fill="#7a5cff" opacity="0.7">
+    <animate attributeName="r" values="3;11;3" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+    <animate attributeName="opacity" values="0.6;0;0.6" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <circle cx="520" cy="170" r="3" fill="#ff6b6b" opacity="0.7">
+    <animate attributeName="r" values="3;12;3" dur="4s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="opacity" values="0.6;0;0.6" dur="4s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+</svg>
